@@ -1,0 +1,98 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+body>header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+section {
+    padding: 10px 50px 30px 60px;
+}
+
+h1 {
+    font-family: 'Patua One', cursive;
+}
+
+p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+figure {
+  width: 1px;
+  text-align: center;
+  font-style: italic;
+  margin: auto;
+  display: table;
+}
+
+figure figcaption, figure img {
+    display: table-row;
+    vertical-align: bottom;
+}
+
+figcaption {
+    padding-left: 4px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+ul {
+    list-style: square;
+}
+
+span>img {
+    margin: 0;
+}
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.software-emulations {
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+.history {
+    background-color: grey;
+}
+
+.quirks {
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.specifications {
+    background-color: lightyellow;
+    text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 60%;
+  margin: auto;
+}
+th, td {
+  padding: 0.25rem;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+thead tr {
+    background: darkred;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+tbody tr:nth-child(even) {
+  background: darkgray;
+}
+
+tbody tr:nth-child(odd) {
+  background: #eee;
+}
